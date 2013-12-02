@@ -5,7 +5,7 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+
 
 
 # Gems used only for assets and not required
@@ -20,14 +20,14 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 group :development do
-
+	gem 'sqlite3'
   gem "better_errors"
   gem 'rails-dev-boost', :git => 'git://github.com/thedarkone/rails-dev-boost.git'
 end
 
-
-
-
+group :production do
+	gem 'pg'
+end
 
 
 
