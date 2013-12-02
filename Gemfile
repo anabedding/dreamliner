@@ -24,6 +24,10 @@ group :development do
   gem 'rails-dev-boost', :git => 'git://github.com/thedarkone/rails-dev-boost.git'
 end
 
+group :production do
+	gem 'pg'
+end
+
 
 
 # To use ActiveModel has_secure_password
