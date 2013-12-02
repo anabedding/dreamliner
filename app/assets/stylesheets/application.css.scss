@@ -1,0 +1,43 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require font-awesome
+ *= require_tree .
+ *= require tablets.css
+ *= require smartphones.css
+ */
+ @import "twitter/bootstrap";
+ @import url(http://fonts.googleapis.com/css?family=Allerta);
+ @import url(http://fonts.googleapis.com/css?family=Poiret+One);
+ @import url(http://fonts.googleapis.com/css?family=Euphoria+Script);
+ @import url(http://fonts.googleapis.com/css?family=Fenix);
+
+body {
+	/*background: url("patterns/grid_noise.png");*/
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Georgia,Times,"Times New Roman",serif;
+}
+p {
+	color: #6D6E71;
+	font-size: 16px;
+
+}
+h2 {
+	font-family: 'Fenix', serif;
+	font-size: 20pt;
+	text-transform: uppercase;
+	color: #6C6C6E;
+}
+ul {
+	list-style-type: none;
+}

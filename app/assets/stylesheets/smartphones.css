@@ -1,0 +1,32 @@
+@media only screen and (max-device-width: 480px) {
+	.large {
+		font-size: 16pt;
+	}
+	.brand img {
+		width: 250px;
+	}
+	.content {
+		min-height: 500px;
+	}
+	.footer ul.menu {
+		padding-left: 32px;
+
+	}
+	.footer ul.menu li a {
+		color: black;
+		font-family: 'Fenix', serif;
+		font-size: 7pt;
+		text-decoration: none;
+		-o-transition: .5s;
+		-ms-transition: .5s;
+		-moz-transition: .5s;
+		-webkit-transition: .5s;
+		transition: .5s;
+	}
+	div.firts-page-container:nth-child(2) {background: none;}
+	div.firts-page-container {height: 250px;}
+	div.firts-page-container:first-child {border-left: none; /*-webkit-box-shadow: 3px 0px 5px 3px #888 ;*/}
+	div.firts-page-container:last-child {border-right: none; /*-webkit-box-shadow: 3px 0px 5px -2px #888 ;*/}
+}
+
+

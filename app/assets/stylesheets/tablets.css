@@ -1,0 +1,31 @@
+@media only screen and (min-width:769px) and (max-width:1281px){  
+	.large {
+		font-size: 25pt;
+	}
+	.colors {
+		margin-right: 25px;
+	}
+	.brand-dummy{
+	margin-left: 0px;
+	margin-bottom: 10px;
+	}
+	.firts-page-container {
+	}
+	.brand img {
+		width: 285px;
+	}
+	.product-description {
+		font-size: ;
+	}
+	.product-description {
+		font-size: 17pt;
+	}
+	.medium {
+		font-size: 16pt;
+	}
+	.bottom-content {margin-top: -100px;}
+
+  div#color img {
+  	width: 40px;
+  }
+}

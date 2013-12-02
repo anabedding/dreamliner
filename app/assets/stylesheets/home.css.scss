@@ -1,0 +1,159 @@
+.brand {
+ 
+	img {
+		width: 300px;
+		padding-top:20px;
+	}
+	
+}
+.brand-dummy{
+ margin-left: 21px;
+	margin-bottom: 28px;
+}
+.slogan-dummy {
+	left: 31px;
+}
+.logo {
+	width: 250px;
+}
+.content {
+	background: white;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+/*	height: 100vh;*/
+	span.fenix {
+		/*top: 22px;
+		position: relative;*/
+	}
+	span.handwritten-font {
+		/*top: 20px;
+		position: relative;*/
+	}
+}
+div.firts-page-container {
+
+	text-align: center;
+	/*background: url("patterns/lightpaperfibers.png");*/
+	background: white;
+	margin: auto;
+	height: 100vh;
+	
+}
+
+div.firts-page-container:nth-child(2) {
+	background: black;
+	
+	.alerta {
+		color: white;
+	}
+}
+
+div.firts-page-container:first-child {border-left: 1px solid #eeeeee; /*-webkit-box-shadow: 3px 0px 5px 3px #888 ;*/}
+div.firts-page-container:last-child {border-right: 1px solid #eeeeee; /*-webkit-box-shadow: 3px 0px 5px -2px #888 ;*/}
+div.firts-page-container:not(:last-child) { /*border-right: 1px solid #ECECEC;*/ }
+div.firts-page-container:hover{
+
+	.black {
+		color: white;
+	}
+	background: black;
+	 -webkit-transition: background 0.5s linear;
+        -moz-transition: background 0.5s linear;
+        -ms-transition: background 0.5s linear;
+        -o-transition: background 0.5s linear;
+        transition: background 0.5s linear;
+};
+
+.product-description {
+	font-size: 30pt;
+}
+
+.alerta {color: black; text-transform: uppercase;}
+.fenix {
+	font-family: 'Fenix', serif;
+}
+h1.alerta {
+	font-size: 12px;
+	font-family: 'Fenix', serif;
+}
+.clean-font {
+	font-family: 'Poiret One', cursive;
+}
+.handwritten-font {
+	font-family: 'Euphoria Script', cursive;
+}
+.uppercase {text-transform: uppercase;}
+.bottom-content { 
+    position: absolute; 
+   top: 300px; 
+    img {
+    	width: 318px;
+    	margin-bottom: 20px;
+    }
+}
+.medium {
+	font-size: 19pt;
+}
+.large {
+	font-size: 32pt;
+}
+.margin-bottom {
+	magin-bottom: 25px;
+}
+.black {color: black;}
+.white {color: white;}
+.gold{color: #B6A57B;}
+.dummy-link:hover {
+	text-decoration: none;
+}
+.footer {
+	border-top: 1px solid #eeeeee;
+	-webkit-box-shadow: 0px -3px 20px rgba(50, 50, 50, 0.21);
+	-moz-box-shadow:    0px -3px 20px rgba(50, 50, 50, 0.21);
+	box-shadow:         0px -3px 20px rgba(50, 50, 50, 0.21);
+	background: white;
+  bottom: 0;
+	left:0;
+	right:0;
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	margin: 0px auto;
+
+	ul.menu {
+		list-style-type: none;
+		margin-left: -60px;
+		padding-top: 16px;
+		li {
+			float: left;
+			padding-left: 20px;
+			a {
+
+				color: black;
+				font-family: 'Fenix', serif;
+				font-size: 20pt;
+				text-decoration: none;
+				-o-transition:.5s;
+				-ms-transition:.5s;
+				-moz-transition:.5s;
+				-webkit-transition:.5s;
+				/* ...and now for the proper property */
+				transition:.5s;
+			} 
+			a:hover {
+				color: #B3A677;
+			}
+		}
+		
+	}
+} 
+.btn-xlarge {
+    padding: 18px 28px;
+   
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}

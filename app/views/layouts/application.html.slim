@@ -1,0 +1,22 @@
+doctype html
+html
+	head
+  	title dreamliner.se
+  	meta name="viewport" content="width=device-width, initial-scale=1.0"
+  	== stylesheet_link_tag    "application", :media => "all"
+  	== javascript_include_tag "application"
+  	== csrf_meta_tags 
+	body
+		.container.full-height
+			== yield 
+	footer.footer
+		.container
+		 .col-md-12
+				ul.menu
+					li 
+						a href="/" == fa_icon "home"
+					li == link_to "Sängar", root_path
+					li == link_to "Tillbehör", "#"
+					li == link_to "Företaget", "#"
+					/ li == link_to "Återförsäljare", "#"
+					li == link_to "Kontakt", "/kontakt"

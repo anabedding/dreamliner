@@ -1,0 +1,14 @@
+== render "shared/logo"
+.col-md-12.content
+	h1.fenix.black.large.uppercase KONTAKTFORMULÄR
+	.col-md-6.col-md-offset-3.content
+		== form_tag "/my_controller/update2", role: "form" do 
+	  	  == text_field_tag "account", nil, placeholder: "Namn", class: "form-control marginbottom" 
+	  	  == text_field_tag "account", nil, placeholder: "Telefon", class: "form-control margin-bottom" 
+	  	  == text_field_tag "account", nil, placeholder: "E-post", class: "form-control margin-bottom" 
+	  	  == text_area "dasdas", "dasdas", class: "form-control", rows: "9", placeholder: "Meddelande"
+	  	  == submit_tag "Skicka", class: "btn btn-default btn-xlarge col-md-12" 
+
+
+
+	
