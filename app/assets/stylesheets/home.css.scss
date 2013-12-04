@@ -60,7 +60,6 @@ div.firts-page-container:nth-child(2) {
 
 div.firts-page-container:first-child {border-left: 1px solid #eeeeee; /*-webkit-box-shadow: 3px 0px 5px 3px #888 ;*/}
 div.firts-page-container:last-child {border-right: 1px solid #eeeeee; /*-webkit-box-shadow: 3px 0px 5px -2px #888 ;*/}
-div.firts-page-container:not(:last-child) { /*border-right: 1px solid #ECECEC;*/ }
 div.firts-page-container:hover{
 
 	.black {
@@ -97,7 +96,7 @@ h1.alerta {
 }
 .uppercase {text-transform: uppercase;}
 .bottom-content { 
-    position: absolute; 
+   position: absolute; 
    top: 300px; 
     img {
     	width: 318px;
@@ -152,7 +151,7 @@ h1.alerta {
 .btn-xlarge {
     padding: 18px 28px;
    
-    font-size: 22px; //change this to your desired size
+    font-size: 22px;
     line-height: normal;
     -webkit-border-radius: 8px;
        -moz-border-radius: 8px;
