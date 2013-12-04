@@ -1,4 +1,8 @@
 Dreamliner::Application.routes.draw do
+  get "resellers/new"
+
+  get "resellers/create"
+
   get "tillbehor/index"
 
   get "foretaget/index"
