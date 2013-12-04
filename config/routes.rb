@@ -1,4 +1,6 @@
 Dreamliner::Application.routes.draw do
+  get "old_browser/index"
+
   get "resellers/new"
 
   get "resellers/create"
@@ -12,7 +14,7 @@ Dreamliner::Application.routes.draw do
   get "sangar/show"
 
   get "home/index"
-  resources :contacts, :resellers
+  resources :contacts, :resellers, :old_browser
   match "sangar/:type_of_bed" => 'sangar#show'
   match "/foretaget" => 'foretaget#index', as: :foretaget_path
   match "/tillbehor" => 'tillbehor#index', as: :tillbehor_path
