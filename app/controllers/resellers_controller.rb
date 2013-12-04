@@ -5,5 +5,8 @@ class ResellersController < ApplicationController
 
   def create
   	@reseller = Reseller.new params[:reseller]
+  	if @reseller.save
+  		redirect_to :back
+  	end
   end
 end

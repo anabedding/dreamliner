@@ -1,2 +1,9 @@
+
 == form_for @reseller do |form|
-	 == form.submit
+	.col-md-6.col-md-offset-3
+		== form.text_field :name, placeholder: "Företag", class: "form-control", required: "true"
+		== form.text_field :phone, placeholder: "Telefon", class: "form-control", required: "true"
+		== form.text_field :address, placeholder: "Adress", class: "form-control", required: "true"
+		== form.text_field :email, placeholder: "Email", class: "form-control", required: "true"   
+		== form.text_area :message, placeholder: "Meddelande", class: "form-control", rows: "8"
+		== form.submit "Skicka förfrågan", class: "btn btn-default btn-xlarge" 
