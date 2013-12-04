@@ -6,7 +6,7 @@ module SangarHelper
 			when 'continental-sangar'
 				html = "
 				<div class='col-md-6 title-holder'><span class='handwritten-font large gold'>Våra </span> <span class='fenix black large uppercase'>Kontinentalsängar</span>
-					<div id='information-holder_1'  class='col-md-12'>
+					<div id='information-holder_1'  class='col-md-12 col-xs-12'>
 						<p>Alla 3000 pocketfjädrarna i 3 olika lager arbetar aktivt tillsammas med Dreamliner Formula FoamTM Hypersoft Antistatic för att skapa optimal tryckavlastning och därigenom bästa tänkbara sömn. Denna säng måste inte bara ses, den måste upplevas! 
 						</p>
 		
@@ -15,26 +15,26 @@ module SangarHelper
 				</div>
 				<div id='color' class='row'>
 					<h2>Färgalternativ</h2>
-						<div class='col-md-12'>
-							<div class='col-md-1 colors'>
+						<div class='row'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag('colors/black_melange.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/black_melange.jpeg")}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/espresso.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/espresso.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/night.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/night.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/sand.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/sand.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/silver.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/silver.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/soft_beige.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/soft_beige.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/stone.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/black_melange.jpeg"}
 							</div>
 						</div>
@@ -58,25 +58,25 @@ module SangarHelper
 				<div id='color' class='row'>
 					<h2>Färgalternativ</h2>
 						<div class='row'>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag('colors/black_melange.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/black_melange.jpeg")}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1  colors'>
 								#{image_tag 'colors/espresso.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/espresso.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/night.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/night.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/sand.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/sand.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/silver.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/silver.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/soft_beige.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/soft_beige.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/stone.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/black_melange.jpeg"}
 							</div>
 						</div>
@@ -104,26 +104,26 @@ exakt efter dina inställningar.
 				</div>
 				<div id='color' class='row'>
 					<h2>Färgalternativ</h2>
-						<div class='col-md-12'>
-							<div class='col-md-1 colors'>
+						<div class='row'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag('colors/black_melange.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/black_melange.jpeg")}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/espresso.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/espresso.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/night.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/night.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/sand.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/sand.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/silver.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/silver.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/soft_beige.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/soft_beige.jpeg"}
 							</div>
-							<div class='col-md-1 colors'>
+							<div class='col-md-1 col-xs-1 colors'>
 								#{image_tag 'colors/stone.jpeg', class: "color-thumb",  "data-zoom-image" => "/assets/colors/black_melange.jpeg"}
 							</div>
 						</div>

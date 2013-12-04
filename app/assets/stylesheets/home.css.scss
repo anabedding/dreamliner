@@ -6,15 +6,24 @@
 	}
 	
 }
+.seperator {
+	
+}
 .brand-dummy{
- margin-left: 21px;
+	position: relative;
+	z-index: 1;
+ margin-left: 15px;
 	margin-bottom: 28px;
+
 }
 .slogan-dummy {
 	left: 31px;
 }
 .logo {
 	width: 250px;
+}
+.slicknav_menu {
+	display: none;
 }
 .content {
 	background: white;
@@ -92,18 +101,7 @@ h1.alerta {
     	margin-bottom: 20px;
     }
 }
-.medium {
-	font-size: 19pt;
-}
-.large {
-	font-size: 32pt;
-}
-.margin-bottom {
-	magin-bottom: 25px;
-}
-.black {color: black;}
-.white {color: white;}
-.gold{color: #B6A57B;}
+
 .dummy-link:hover {
 	text-decoration: none;
 }
@@ -156,4 +154,21 @@ h1.alerta {
     -webkit-border-radius: 8px;
        -moz-border-radius: 8px;
             border-radius: 8px;
+}
+/* CLASS HELPERS */
+.medium {
+	font-size: 19pt;
+}
+.large {
+	font-size: 32pt;
+}
+.margin-bottom {
+	magin-bottom: 25px;
+}
+.black {color: black;}
+.white {color: white;}
+.gold{color: #B6A57B;}
+.centered{
+    float: none;
+    margin: 0 auto;
 }

@@ -9,14 +9,15 @@ html
 	body
 		.container.full-height
 			== yield 
-	footer.footer
-		.container
-		 .col-md-12
-				ul.menu
-					li 
-						a href="/" == fa_icon "home"
-					li == link_to "Sängar", root_path
-					li == link_to "Tillbehör", "#"
-					li == link_to "Företaget", "#"
-					/ li == link_to "Återförsäljare", "#"
-					li == link_to "Kontakt", "/kontakt"
+		footer.footer
+			.container
+			 .col-md-12
+					ul.menu
+						li 
+							a href="/" == fa_icon "home", class: "gold"
+						li == link_to "Sängar", root_path
+						li == link_to "Tillbehör", "/tillbehor"
+						li == link_to "Företaget", "/foretaget"
+						li == link_to "Bli återförsäljare", "/aterforsaljare"
+						/ li == link_to "Återförsäljare", "#"
+						li == link_to "Kontakt", "/kontakt"
