@@ -12,7 +12,7 @@ Dreamliner::Application.routes.draw do
   get "sangar/show"
 
   get "home/index"
-  resources :contacts
+  resources :contacts, :resellers
   match "sangar/:type_of_bed" => 'sangar#show'
   match "/foretaget" => 'foretaget#index', as: :foretaget_path
   match "/tillbehor" => 'tillbehor#index', as: :tillbehor_path
