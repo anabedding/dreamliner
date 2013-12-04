@@ -7,6 +7,7 @@ class ContactsController < ApplicationController
   def create
   	@contact = Contact.new params[:contact]
   	if @contact.save
+      flash[:notice] = "Vi har mottagit ditt meddelande."
   		redirect_to :back
   	end
   end
