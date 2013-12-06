@@ -7,7 +7,7 @@ html
   	== javascript_include_tag "application"
   	== csrf_meta_tags 
 	body	
-		.container.full-height
+		.container.full-height.fade-in
 			.flash == flash[:notice]
 			== yield 
 		footer.footer
