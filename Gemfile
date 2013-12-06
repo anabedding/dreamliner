@@ -48,3 +48,4 @@ gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
 gem "font-awesome-rails"
 gem "slim"
 gem 'browser'
+gem 'active_link_to'

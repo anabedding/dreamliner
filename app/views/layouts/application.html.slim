@@ -17,8 +17,8 @@ html
 						li 
 							a href="/" == fa_icon "home", class: "gold"
 						li == link_to "Sängar", root_path
-						li == link_to "Tillbehör", "/tillbehor"
-						li == link_to "Företaget", "/foretaget"
-						li == link_to "Bli återförsäljare", new_reseller_path
+						li == active_link_to "Tillbehör", "/tillbehor"
+						li == active_link_to "Företaget", "/foretaget"
+						li == active_link_to "Bli återförsäljare", new_reseller_path
 						/ li == link_to "Återförsäljare", "#"
-						li == link_to "Kontakt", new_contact_path
+						li == active_link_to "Kontakt", new_contact_path

@@ -1,3 +1,6 @@
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 .brand {
  
 	img {
@@ -141,6 +144,28 @@ h1.alerta {
 				/* ...and now for the proper property */
 				transition:.5s;
 			} 
+			.active {
+
+				opacity:0;  /* make things invisible upon start */
+				border-radius: 3px;
+				background: #B3A677;
+				padding: 7px;
+				color: white;
+			 
+		    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+		    -moz-animation:fadeIn ease-in 1;
+		    animation:fadeIn ease-in 1;
+		 
+		    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+		    -moz-animation-fill-mode:forwards;
+		    animation-fill-mode:forwards;
+		 
+		    -webkit-animation-duration:0.2s;
+		    -moz-animation-duration:0.2s;
+		    animation-duration:0.2s;
+
+
+			}
 			a:hover {
 				color: #B3A677;
 			}
@@ -178,4 +203,18 @@ h1.alerta {
 	position: absolute;
 	margin-left: 477px;
 	margin-top: 0px;
+}
+
+.fade-in {
+	 -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+		    -moz-animation:fadeIn ease-in 1;
+		    animation:fadeIn ease-in 1;
+		 
+		    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+		    -moz-animation-fill-mode:forwards;
+		    animation-fill-mode:forwards;
+		 
+		    -webkit-animation-duration:0.2s;
+		    -moz-animation-duration:0.2s;
+		    animation-duration:0.2s;
 }
