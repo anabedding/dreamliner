@@ -1,5 +1,6 @@
 
-$(function() {
+var ready;
+ready = function() {
 	var device = navigator.userAgent.toLowerCase();
 	var ios = device.match(/(iphone)/);
 	if (ios) {
@@ -21,4 +22,7 @@ $(function() {
     	
   }
   
-});
+};
+
+$(document).ready(ready);
+$(document).on('page:load', ready);

@@ -1,5 +1,5 @@
-$ ->
- $(".color-thumb").elevateZoom({
+ready = ->
+	$(".color-thumb").elevateZoom({
 		zoomWindowPosition: 1,
 		responsive: true,
 		borderSize: 1,
@@ -10,4 +10,6 @@ $ ->
 		zoomWindowHeight: 200,
 		zoomWindowWidth: 200
 	});
+$(document).ready(ready)
+$(document).on('page:load', ready)
 	

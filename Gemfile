@@ -49,3 +49,4 @@ gem "font-awesome-rails"
 gem "slim"
 gem 'browser'
 gem 'active_link_to'
+gem 'turbolinks'
