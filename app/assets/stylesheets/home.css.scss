@@ -146,9 +146,9 @@ h1.alerta {
 			} 
 			.active {
 
-				opacity:0;  /* make things invisible upon start */
+				opacity:0.2;  /* make things invisible upon start */
 				border-radius: 3px;
-				background: #B3A677;
+				background: black;
 				padding: 7px;
 				color: white;
 			 
@@ -167,7 +167,7 @@ h1.alerta {
 
 			}
 			a:hover {
-				color: #B3A677;
+				color: #CDCDCD;
 			}
 		}
 		
